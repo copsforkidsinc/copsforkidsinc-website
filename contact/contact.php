@@ -41,3 +41,20 @@ echo 'OK';
 
 }
 ?>
+
+<html>
+<head>
+<title>Form submission</title>
+</head>
+<body>
+
+<form action="" method="post">
+Name: <input type="text" name="name"><br>
+Email: <input type="text" name="email"><br>
+Subject: <input type="text" name="submit"><br>
+Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+</body>
+</html> 
