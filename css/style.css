@@ -1,4 +1,4 @@
-﻿/* ==== Google font ==== */
+/* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
 
 /* === prettify === */
@@ -170,7 +170,7 @@ header .navbar-default .navbar-nav > .open > a:focus {
 
 
 header .navbar {
-    min-height: 100px;
+    min-height: 170px;
 }
 
 header .navbar-nav > li  {
@@ -341,7 +341,7 @@ ul.nav li.dropdown a {
 }
 
 .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-.flex-caption { bottom: 50px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 15px 15px 15px 15px; position: absolute; right: 0; width: 295px;}
+.flex-caption { bottom: 50px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 15px 15px 15px 15px; position: absolute; right: 0; width: 350px;}
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 
