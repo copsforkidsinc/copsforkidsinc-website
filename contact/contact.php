@@ -26,7 +26,7 @@ $error = '';
 if(!$error)
 {
 $mail = mail(WEBMASTER_EMAIL, $subject, $message,
-     $from="From: $name<$email>\r\nReturn-Path: $email"
+     $from="From: $name<$email>\r\nReturn-Path: $email";
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
 
