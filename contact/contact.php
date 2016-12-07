@@ -26,14 +26,14 @@ $error = '';
 if(!$error)
 {
 $mail = mail(WEBMASTER_EMAIL, $subject, $message,
-     "From: ".$name." <".$email.">\r\n"
+     $from="From: $name<$email>\r\nReturn-Path: $email"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
 
 
 if($mail)
 {
-echo 'OK';
+echo 'Email sent!';
 }
 
 }
@@ -48,12 +48,13 @@ echo 'OK';
 </head>
 <body>
 
-<form action="Submit" method="post">
+<form action="" method="post" enctype="multipart/form-data">
+     <input type="hidden" name="action" value="submit">
 Name: <input type="text" name="name"><br>
 Email: <input type="text" name="email"><br>
-Subject: <input type="text" name="submit"><br>
+Subject: <input type="text" name="subject"><br>
 Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-<input type="submit" name="submit" value="Submit">
+<input type="submit" value="Send email"/>
 </form>
 
 </body>
