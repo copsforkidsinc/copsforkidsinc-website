@@ -48,7 +48,7 @@ echo 'OK';
 </head>
 <body>
 
-<form action="" method="post">
+<form action="Submit" method="post">
 Name: <input type="text" name="name"><br>
 Email: <input type="text" name="email"><br>
 Subject: <input type="text" name="submit"><br>
